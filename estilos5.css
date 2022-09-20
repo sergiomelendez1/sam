@@ -1,0 +1,19 @@
+/*table{
+    border: 2px black solid;
+}*/
+td{
+    border: 2px black solid; 
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 50px;
+    width: 100%;
+    padding: 10px;
+    height: 30px;     /*es responsiva... se mueve automaticament el ancho*/
+}
+tr:hover{
+    background-color: lightgray;   /*cuando pase mouse por arriba cambia de color*/
+}
+td{
+    text-align: center;      /*el texto de las celdas estara centrado*/
+}
